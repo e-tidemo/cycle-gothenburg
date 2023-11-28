@@ -89,4 +89,6 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
   - ### Code Used
    How To Add Video Background In Website Using HTML And CSS Step By Step Tutorial
 [https://www.youtube.com/watch?v=znqUwx0b0HI]
+    "Mobile First Video Background with HTML & CSS" by DivByDiv
+[https://www.youtube.com/watch?v=bDwf7dIvGNQ]
       
