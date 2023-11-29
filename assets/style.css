@@ -29,6 +29,11 @@ video {
 .homepage {
     text-align: center;
 }
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
 
 header {
     position: absolute;
