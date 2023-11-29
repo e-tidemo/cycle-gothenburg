@@ -1,4 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400;1,500;1,700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +9,7 @@
 }
 
 body {
-    font-family: serif;
+    font-family: 'Poppins', 'Lato', sans-serif;
 }
 
 /* Homescreen */
@@ -17,7 +20,7 @@ video {
     object-fit: cover;
 }
 
-@media screen and (min-width 900px) {
+@media screen (max-width: 1000px) {
     video {
         height: 100vh;
     }
@@ -27,10 +30,20 @@ video {
     text-align: center;
 }
 
-.homepage h1 {
-    font-size: 10rem;
-    color: #e5e5dc;
-    font-weight: 600;
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    text-transform: capitalize;
+    font-weight: 900;
 }
 
 .homepage a {
@@ -42,4 +55,18 @@ video {
     padding: 0.875rem 4.375rem;
     border-radius: 3.125rem;
     margin-top: 3.125rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 110px;
+
+}
+
+section h1 {
+    font-size: 10rem;
+    color: #e5e5dc;
+    font-weight: 600;
 }
