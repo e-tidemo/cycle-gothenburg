@@ -91,4 +91,6 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 [https://www.youtube.com/watch?v=znqUwx0b0HI]
     "Mobile First Video Background with HTML & CSS" by DivByDiv
 [https://www.youtube.com/watch?v=bDwf7dIvGNQ]
+    "How to Make a Responsive Website with a video background" by Divinector
+[https://www.youtube.com/watch?v=Mzdkx3Mk9Bk]
       
