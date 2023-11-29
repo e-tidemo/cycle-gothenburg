@@ -130,31 +130,15 @@ input[type=checkbox] {
     }
 }
 
-.box a {
-    text-decoration: none;
-    display: inline-block;
-    color: #f39653;
-    font-size: 1.5rem;
-    border: 0.125rem solid #e5e5dc;
-    padding: 0.875rem 4.375rem;
-    border-radius: 3.125rem;
-    margin-top: 3.125rem;
-}
-
-.box a:hover{
-    background-color:#e5e5dc
-}
-
 .box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3.5rem 3.5rem;
 }
 
 section h1 {
-    font-size: 10rem;
+    font-size: 11vw;
     color: #f39653;
     font-weight: 600;
     text-align: center;
@@ -166,6 +150,20 @@ section h1:hover{
     color: transparent;
 }
 
+.box a {
+    text-decoration: none;
+    display: inline-block;
+    color: #f39653;
+    font-size: 3vw;
+    border: 0.125rem solid #e5e5dc;
+    padding: 0.875rem 4.375rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+.box a:hover{
+    background-color:#e5e5dc
+}
 
 main {
     flex: 1 0 auto;
