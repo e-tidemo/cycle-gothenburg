@@ -66,6 +66,15 @@ header a {
     letter-spacing: 2px;
 }
 
+#navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
 .box a {
     text-decoration: none;
     display: inline-block;
@@ -82,7 +91,6 @@ section {
     flex-direction: column;
     align-items: center;
     padding: 110px 110px;
-
 }
 
 section h1 {
