@@ -36,10 +36,12 @@ h1 {
 }
 
 header {
-    position: absolute;
+    background-color: transparent;
+    position: fixed;
+    padding: 0 1rem;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 99;
     width: 100%;
     display: flex;
     justify-content: space-between;
