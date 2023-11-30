@@ -76,6 +76,14 @@ header a {
     gap: 2rem;
 }
 
+#navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
 .active {
     border-bottom: 1px solid #f39653;
 }
