@@ -36,8 +36,8 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 - ## Features
   - ### Existing Features
     - **Navigation bar**
-      - The navigation bar is set at the top right of the website on all pages which supports easy navigation. On smaller devices, such as mobile phones, this moves to ...
-      - The navigation bar is also marked for each page, on the home page, the navigation bar shows that you are currently on the "Home" page.
+      - The navigation bar is set at the top right of the website on all pages which supports easy navigation. On smaller devices, such as mobile phones, this moves to a hamburger menu toggle bar.
+      - The navigation bar is also marked for each page, for example, on the home page the navigation bar shows that you are currently on the "Home" page with a line underneath.
     - **Additional links to sign up**
       - On the Home page, the link to sign up is very prominent in the middle of the page. This link is also the main explanation of what the organisation does as it says "Join our cycling groups".
       - On the page "About us" there is also a link embedded in the text that leads to the sign up page. The purpose of adding the additional links is to encourage the website visitor to sign up with easy access to the page for signing up.
@@ -54,7 +54,7 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 
 - ## Design
   - ### Colour scheme:
-    ![Colour Palette] (documentation/support-images/Color palette cycling.png)
+    ![Colour Palette] (support-images/Color palette cycling.png)
     A colour palette was created that reflected the video on the home page - reminiscent of the asfalt grey of roads and with a pop of colour which was inspired by the front figure's jacket.
   - ### Typography
  
