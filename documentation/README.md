@@ -7,13 +7,13 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 <!--- PICTURE --->
 
 ## Index - Table of Contents
-* [User experience (UX)]
-* Features
-* Design
-* Technologies Used
-* Deployment and Local Development
-* Testing
-* Credits
+* [User experience (UX)](#User-Experience-(UX) )
+* [Features](#Features)
+* [Design](#Design)
+* [Technologies Used](#Technologies-Used)
+* [Deployment and Local Development](#Deployment-and-Local-Development)
+* [Testing](#Testing)
+* [Credits](#Credits)
 
 
 
@@ -54,17 +54,17 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 
 - ## Design
   - ### Colour scheme:
-    ![Colour Palette] (support-images/Color palette cycling.png)
+    ![Colour Palette] (/support-images/Color palette cycling.png)
     A colour palette was created that reflected the video on the home page - reminiscent of the asfalt grey of roads and with a pop of colour which was inspired by the front figure's jacket.
   - ### Typography
  
   - ### Imagery
- 
+    The background-video and imagery were chosen to bring a bit of nature and calming colours of nature as this website is based around wellness and outdoor sports. The imagery was used as the foundation of the colour palette. All imagery is sourced from sites that don't infringe Copyright and I have credited these in the [credits](#Credits) section.
   - ### Wireframes
-    (documentation/support-images/New Wireframe 1.png)
-    (documentation/support-images/New Wireframe 1 copy.png)
-    (documentation/support-images/New Wireframe 1 copy 2.png)
-    (documentation/support-images/New Wireframe 1 copy 4.png)
+    (/documentation/support-images/New Wireframe 1.png)
+    (/documentation/support-images/New Wireframe 1 copy.png)
+    (/documentation/support-images/New Wireframe 1 copy 2.png)
+    (/documentation/support-images/New Wireframe 1 copy 4.png)
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -78,20 +78,30 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
     The languages used for this website are HTML and CSS.
 
   - ### Frameworks, Libraries and Programs Used
-    Balsamiq - used to create wireframes
+    [Balsamiq:](https://balsamiq.com/) was used to create wireframes
 
-    [Uxwing](https://uxwing.com/) for icons.
+    [Uxwing:](https://uxwing.com/) was used to add icons.
     
-    [Pexels](https://www.pexels.com/sv-se/) for images and videos.
+    [Pexels:](https://www.pexels.com/sv-se/) was used to find images and videos for the styling of the webpage.
 
+    [Google Fonts:](https://fonts.google.com/) was used to import the 'Poppins' and 'Lato' fonts into the style.css file which are used on all pages of the project.
+
+    [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+    [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+
+- ## Testing
+    - ### Validator Testing
+    [HTML Validator](https://validator.w3.org/)
+
+    [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    - ### Solved Bugs
+    The dropdown navigation bar that appears on smaller devices would be too wide for the screen. This led to the text disappearing on the left and the right sides on some smaller devices.
 
 - ## Credits
   - ### Code Used
-   "How To Add Video Background In Website Using HTML And CSS Step By Step Tutorial"
-[https://www.youtube.com/watch?v=znqUwx0b0HI]
-    "Mobile First Video Background with HTML & CSS" by DivByDiv
-[https://www.youtube.com/watch?v=bDwf7dIvGNQ]
-    "How to Make a Responsive Website with a video background" by Divinector
-[https://www.youtube.com/watch?v=Mzdkx3Mk9Bk]
-      "How to Build a Responsive Navigation Bar Using HTML and CSS"
-[https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/]
+    ["How To Add Video Background In Website Using HTML And CSS Step By Step Tutorial"](https://www.youtube.com/watch?v=znqUwx0b0HI)
+    ["Mobile First Video Background with HTML & CSS" by DivByDiv](https://www.youtube.com/watch?v=bDwf7dIvGNQ)
+    ["How to Make a Responsive Website with a video background" by Divinector](https://www.youtube.com/watch?v=Mzdkx3Mk9Bk)
+    ["How to Build a Responsive Navigation Bar Using HTML and CSS"](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
