@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #333333;
+    background-color: #333333;
     font-family: 'Poppins', 'Lato', sans-serif;
 }
 
@@ -46,12 +46,12 @@ header {
     background-color: transparent;
     position: fixed;
     padding: 0 1rem;
-    z-index: 99;
+    z-index: 98;
     width: 100%;
     flex-direction: column;
     display: flex;
-    justify-content: space-between; 
     align-items: center; 
+    top: 0;
 }
 
 header a {
@@ -148,16 +148,19 @@ section h1:hover{
 
 main {
     flex: 1 0 auto;
+    overflow-y: auto;
+    z-index: 99;
 }
 
 footer {
     background-color: #333333;
     padding: 0.75em;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    position: static;
+    margin-top: 1rem;
+   /* bottom: 0;
     right: 0;
-    width: 100%;
+    width: 100%;*/
 }
 
 footer > span {
@@ -174,10 +177,17 @@ footer > a {
 /* Sign up-page */
 
 #form-header {
-    height: 40vh;
+    height: 35vh;
     color: #f39653;
-    border-radius: 2rem;
-    background-image: url(images/cycling\ header.jpeg)
+    position: relative;
+}
+
+#form-header img {
+    right:0%;
+    left: 0%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
 }
 
 #other-pages {
@@ -186,9 +196,29 @@ footer > a {
 
 #form-boxes-container {
     display: flex;
-    height: 270px;
     gap: 1rem;
     justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.sign-up,
+.lead-groups {
+    flex: 1;
+    padding: 20px;
+    background-color: #f39653;
+    color: #333333;
+    border-radius: 8px;
+}
+
+.sign-up h3,
+.lead-groups h3 {
+    font-size: 1.5em;
+}
+
+.sign-up p,
+.lead-groups p {
+    font-size: 1em;
 }
 
 /* Applying media queries */
@@ -237,5 +267,25 @@ footer > a {
         font-size: smaller;
         display: flex;
         justify-content: flex-start;
+    }
+
+    .sign-up,
+    .lead-groups {
+        flex: none;
+        width: 100%;
+    }
+
+    main {
+        margin-top: 10vh;
+    }
+
+    .sign-up h3,
+    .lead-groups h3 {
+        font-size: 1.2em;
+    }
+
+    .sign-up p,
+    .lead-groups p {
+        font-size: 0.9em;
     }
 }
