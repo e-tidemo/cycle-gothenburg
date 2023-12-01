@@ -47,28 +47,56 @@
     </header>
     <!--Main content-->
     <main>
-        <p>Sign up for email notifications on our group rides. You can choose which difficulty levels you would like to join. Once you sign up to our newsletter, we will let you know through email when the next ride in the categories you choose are.</p>
+        <section id="forms">
+        <div id="form-boxes-container">
+            <div class="sign-up">
+                <h3>Sign up for our group rides!</h3>
+                <p>Sign up for email notifications on our group rides. You can choose which difficulty levels you would like to join. Once you sign up to, we will let you know through email when and where the next rides in the categories you choose are.</p>
     <!-- Create a form for signing up for rides-->
-        <hr>
-            <form method="post" action="https://formdump.codeinstitute.net">
-                <label for="name-field">Full name</label>
-                <input type="text" name="name-field">
+                <form method="post" action="https://formdump.codeinstitute.net">
+                    <label for="name-field">Full name</label>
+                    <input type="text" name="name-field">
 
-                <label for="email-field">Email</label>
-                <input type="email" name="email-field">
+                    <label for="email-field">Email</label>
+                    <input type="email" name="email-field">
 
-                <p>Choose what difficulty levels you are interested in joining:</p>
-                <label for="easy">Easy</label>
-                <input type="checkbox" name="easy">
+                    <p>Choose what difficulty levels you are interested in joining:</p>
+                    <label for="easy">Easy</label>
+                    <input type="checkbox" name="easy">
 
-                <label for="intermediate">Intermediate</label>
-                <input type="checkbox" name="intermediate">
+                    <label for="intermediate">Intermediate</label>
+                    <input type="checkbox" name="intermediate">
 
-                <label for="advanced">Advanced</label>
-                <input type="checkbox" name="advanced">
-            </form>
-        
+                    <label for="advanced">Advanced</label>
+                    <input type="checkbox" name="advanced">
+
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="lead-groups">
+                <h3>Do you want to lead or organise the group rides?</h3>
+                <p>Please let us know by registering you interest below.</p>
+                <form action="https://formdump.codeinstitute.net" method="post">
+                    <label for="name">Full name</label>
+                    <input type="text" name="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email">
+                    <label for="experience">What experience level are you on?</label>
+                    <label for="beginner">Beginner</label><br>
+                    <input type="radio" id="beginner" name="experience" value="beginner">
+
+                    <label for="intermediate-level">Intermediate level</label>
+                    <input type="radio" id="intermediate-level" name="experience" value="intermediate-level">
+
+                    <label for="advanced-level">Advanced level</label>
+                    <input type="radio" id="advanced-level" name="experience" value="advanced-level">
+                </form>
+            </div>
     <!-- Create a form for interest in leading groups-->
+        </div>
+        </section>
+
     </main>
     <!--Footer-->
     <footer>

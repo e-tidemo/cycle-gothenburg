@@ -174,11 +174,21 @@ footer > a {
 /* Sign up-page */
 
 #form-header {
-    height: 20vh;
+    height: 40vh;
+    color: #f39653;
+    border-radius: 2rem;
+    background-image: url(images/cycling\ header.jpeg)
 }
 
 #other-pages {
     font-size: 5vw;
+}
+
+#form-boxes-container {
+    display: flex;
+    height: 270px;
+    gap: 1rem;
+    justify-content: center;
 }
 
 /* Applying media queries */
