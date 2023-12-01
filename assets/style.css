@@ -93,6 +93,24 @@ ul li {
     padding: 0;
 }
 
+/* Responsive dropdown-menu starts - found on makeuseof.com */
+
+/* Checkbox hack */
+input[type=checkbox] {
+    display: none;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    font-size: 50px;
+    user-select: none;
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    z-index: 100; 
+}
+
 .box {
     display: flex;
     flex-direction: column;
@@ -100,7 +118,7 @@ ul li {
     justify-content: center;
 }
 
-section h1 {
+.box h1 {
     font-size: 11vw;
     color: #f39653;
     font-weight: 600;
@@ -153,22 +171,14 @@ footer > a {
     padding: 0 15px;
 }
 
-/* Responsive dropdown-menu starts - found on makeuseof.com */
+/* Sign up-page */
 
-/* Checkbox hack */
-input[type=checkbox] {
-    display: none;
+#form-header {
+    height: 20vh;
 }
 
-/* Hamburger Menu */
-.hamburger {
-    display: none;
-    font-size: 50px;
-    user-select: none;
-    position: absolute;
-    top: 10px; 
-    right: 10px; 
-    z-index: 100; 
+#other-pages {
+    font-size: 5vw;
 }
 
 /* Applying media queries */
@@ -210,9 +220,12 @@ input[type=checkbox] {
 
     .hamburger {
         display: inline-flex;
+        font-size: smaller;
     }
 
     #logo {
         font-size: smaller;
+        display: flex;
+        justify-content: flex-start;
     }
 }

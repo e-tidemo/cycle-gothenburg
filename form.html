@@ -14,9 +14,8 @@
 </head>
 
 <body>
-    <video autoplay muted loop playsinline src="assets/images/cycling-danilyuk.mp4"></video>
     <!-- Header -->
-    <header>
+    <header id="form-header">
         <a href="index.html">
             <h1 id="logo">Cycle Gbg</h1>
         </a>
@@ -42,39 +41,46 @@
                     </ul>
                 </div>
         </nav>
-
-        <section class="box">
+        <section id="other-pages">
             <h1>Cycle Gothenburg</h1>
         </section>
-
     </header>
-
-
-
     <!--Main content-->
     <main>
-        <!-- Create an information paragraph-->
-        <div>
-            <p>Here is all the information about Cycle Gothenburg</p>
-        </div>
-        <!-- Create a form for signing up to rides -->
-        <!-- Create a form for interest in leading groups-->
-    </main>
+        <p>Sign up for email notifications on our group rides. You can choose which difficulty levels you would like to join. Once you sign up to our newsletter, we will let you know through email when the next ride in the categories you choose are.</p>
+    <!-- Create a form for signing up for rides-->
+        <hr>
+            <form method="post" action="https://formdump.codeinstitute.net">
+                <label for="name-field">Full name</label>
+                <input type="text" name="name-field">
 
+                <label for="email-field">Email</label>
+                <input type="email" name="email-field">
+
+                <p>Choose what difficulty levels you are interested in joining:</p>
+                <label for="easy">Easy</label>
+                <input type="checkbox" name="easy">
+
+                <label for="intermediate">Intermediate</label>
+                <input type="checkbox" name="intermediate">
+
+                <label for="advanced">Advanced</label>
+                <input type="checkbox" name="advanced">
+            </form>
+        
+    <!-- Create a form for interest in leading groups-->
+    </main>
     <!--Footer-->
     <footer>
         <span>
             Find us on:
         </span>
-
         <a href="https://www.facebook.com" target="_blank" rel="noopener"
             aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener"
             aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener"
             aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-
     </footer>
 </body>
-
 </html>
