@@ -174,13 +174,15 @@ footer > a {
 #form-header {
     color: #f39653;
     position: relative;
+    z-index: 98;
 }
 
 #other-pages {
     font-size: 5vw;
 }
 
-#sign-up-instructions {
+#sign-up-instructions,
+#text-about {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -189,7 +191,8 @@ footer > a {
     margin-bottom: 1rem;
 }
 
-.sign-up-info h2 {
+.sign-up-info h2,
+.about-us h2 {
     font-size: 2em;
     text-align: center;
 }
@@ -238,10 +241,6 @@ input[type=checkbox] .check {
     margin: 8px;
 }
 
-.hamburger-checkbox {
-    display: none;
-}
-
 input[type=radio] {
     padding: 13px 13px;
     margin: 8px;
@@ -252,10 +251,26 @@ input[type=email] {
     margin: 8px;
 }
 
-input[type:submit] {
-    margin: 8px;
+/* About us-page */
+
+.headlines {
+    color: #92ae80;
+    z-index: 99;
 }
 
+.about-us {
+    flex: 1;
+    padding: 20px;
+    background-color: #e5e5dc;
+    color: #333333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #333333;
+}
+
+
+.hamburger-checkbox {
+    display: none;
+}
 /* Applying media queries */
 @media (max-width: 768px) {
     .menu {
