@@ -189,6 +189,11 @@ footer > a {
     margin-bottom: 1rem;
 }
 
+.sign-up-info h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
 a:link #about-link {
     color: #333333;
 }
@@ -210,9 +215,10 @@ a:visited #about-link {
 .sign-up-info {
     flex: 1;
     padding: 20px;
-    background-color: #f39653;
+    background-color: #beb874;
     color: #333333;
     border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .sign-up h3,
@@ -221,7 +227,8 @@ a:visited #about-link {
 }
 
 .sign-up p,
-.lead-groups p {
+.lead-groups p,
+.sign-up-info {
     font-size: 1em;
 }
 
