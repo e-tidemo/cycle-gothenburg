@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    background-color: #333333;
+    background-color: #535f65;
     font-family: 'Poppins', 'Lato', sans-serif;
 }
 
@@ -215,10 +215,10 @@ a:visited #about-link {
 .sign-up-info {
     flex: 1;
     padding: 20px;
-    background-color: #beb874;
+    background-color: #e5e5dc;
     color: #333333;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #333333;
 }
 
 .sign-up h3,
@@ -234,10 +234,26 @@ a:visited #about-link {
 
 input[type=checkbox] .check {
     display: inline-block;
+    padding: 13px 13px;
+    margin: 8px;
 }
 
 .hamburger-checkbox {
     display: none;
+}
+
+input[type=radio] {
+    padding: 13px 13px;
+    margin: 8px;
+}
+
+input[type=text],
+input[type=email] {
+    margin: 8px;
+}
+
+input[type:submit] {
+    margin: 8px;
 }
 
 /* Applying media queries */
@@ -307,4 +323,9 @@ input[type=checkbox] .check {
     .lead-groups p {
         font-size: 0.9em;
     }
+
+    input[type=text],
+    input[type=email] {
+    padding: 2px 24px;
+}
 }
