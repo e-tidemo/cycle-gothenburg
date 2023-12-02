@@ -16,13 +16,12 @@
 <body>
     <!-- Header -->
     <header id="form-header">
-        <img src="assets/images/cycling header.png" alt="One cyclist on a country road with two cyclists behind him">
         <a href="index.html">
             <h1 id="logo">Cycle Gbg</h1>
         </a>
         <nav>
             <!-- Using the checkbox hack-->
-            <input type="checkbox" id="checkbox_toggle">
+            <input type="checkbox" id="checkbox_toggle" class="hamburger-checkbox">
             <label for="checkbox_toggle" class="hamburger">&#9776</label>
                 <!-- Navigation Menus -->
                 <div class="menu">
@@ -56,20 +55,20 @@
     <!-- Create a form for signing up for rides-->
                 <form method="post" action="https://formdump.codeinstitute.net">
                     <label for="name-field">Full name</label>
-                    <input type="text" name="name-field">
+                    <input type="text" name="name-field"><br>
 
                     <label for="email-field">Email</label>
-                    <input type="email" name="email-field">
+                    <input type="email" name="email-field"><br>
 
-                    <p>Choose what difficulty levels you are interested in joining:</p>
+                    <p>Choose what difficulty levels you are interested in joining:</p><br>
                     <label for="easy">Easy</label>
-                    <input type="checkbox" name="easy">
+                    <input type="checkbox" name="easy" id="easy" class="check">
 
                     <label for="intermediate">Intermediate</label>
-                    <input type="checkbox" name="intermediate">
+                    <input type="checkbox" name="intermediate" id="intermediate" class="check">
 
                     <label for="advanced">Advanced</label>
-                    <input type="checkbox" name="advanced">
+                    <input type="checkbox" name="advanced" id="intermediate" class="check">
 
                     <input type="submit">
                 </form>
@@ -80,19 +79,17 @@
                 <p>Please let us know by registering you interest below.</p>
                 <form action="https://formdump.codeinstitute.net" method="post">
                     <label for="name">Full name</label>
-                    <input type="text" name="name">
-
+                    <input type="text" name="name"> <br>
                     <label for="email">Email</label>
-                    <input type="email" name="email">
-                    <label for="experience">What experience level are you on?</label>
-                    <label for="beginner">Beginner</label><br>
-                    <input type="radio" id="beginner" name="experience" value="beginner">
-
+                    <input type="email" name="email"><br>
+                    <label for="experience">What experience level are you on?</label><br>
+                    <label for="beginner">Beginner</label>
+                    <input type="radio" id="beginner" name="experience" value="beginner"><br>
                     <label for="intermediate-level">Intermediate level</label>
-                    <input type="radio" id="intermediate-level" name="experience" value="intermediate-level">
+                    <input type="radio" id="intermediate-level" name="experience" value="intermediate-level"><br>
 
                     <label for="advanced-level">Advanced level</label>
-                    <input type="radio" id="advanced-level" name="experience" value="advanced-level">
+                    <input type="radio" id="advanced-level" name="experience" value="advanced-level"><br>
 
                     <input type="submit">
                 </form>

@@ -96,13 +96,8 @@ ul li {
 /* Responsive dropdown-menu starts - found on makeuseof.com */
 
 /* Checkbox hack */
-input[type=checkbox] {
-    display: none;
-}
-
 /* Hamburger Menu */
 .hamburger {
-    display: none;
     font-size: 50px;
     user-select: none;
     position: absolute;
@@ -177,7 +172,6 @@ footer > a {
 /* Sign up-page */
 
 #form-header {
-    height: 35vh;
     color: #f39653;
     position: relative;
 }
@@ -219,6 +213,14 @@ footer > a {
 .sign-up p,
 .lead-groups p {
     font-size: 1em;
+}
+
+input[type=checkbox] .check {
+    display: inline-block;
+}
+
+.hamburger-checkbox {
+    display: none;
 }
 
 /* Applying media queries */
