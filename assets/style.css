@@ -98,6 +98,7 @@ ul li {
 /* Checkbox hack */
 /* Hamburger Menu */
 .hamburger {
+    display: none;
     font-size: 50px;
     user-select: none;
     position: absolute;
@@ -106,6 +107,7 @@ ul li {
     z-index: 100; 
 }
 
+/* Main header */
 .box {
     display: flex;
     flex-direction: column;
@@ -141,6 +143,7 @@ section h1:hover{
     background-color:#e5e5dc
 }
 
+/* main content and content for all pages */
 main {
     flex: 1 0 auto;
     overflow-y: auto;
@@ -153,9 +156,6 @@ footer {
     text-align: center;
     position: static;
     margin-top: 1rem;
-   /* bottom: 0;
-    right: 0;
-    width: 100%;*/
 }
 
 footer > span {
@@ -176,16 +176,25 @@ footer > a {
     position: relative;
 }
 
-#form-header img {
-    right:0%;
-    left: 0%;
-    width: 100%;
-    z-index: -1;
-    position: fixed;
-}
-
 #other-pages {
     font-size: 5vw;
+}
+
+#sign-up-instructions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+a:link #about-link {
+    color: #333333;
+}
+
+a:visited #about-link {
+    color: #333333;
 }
 
 #form-boxes-container {
@@ -197,7 +206,8 @@ footer > a {
 }
 
 .sign-up,
-.lead-groups {
+.lead-groups,
+.sign-up-info {
     flex: 1;
     padding: 20px;
     background-color: #f39653;
