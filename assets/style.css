@@ -180,8 +180,7 @@ footer > a {
     font-size: 5vw;
 }
 
-#sign-up-instructions,
-#text-about {
+#sign-up-instructions {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -190,8 +189,7 @@ footer > a {
     margin-bottom: 1rem;
 }
 
-.sign-up-info h2,
-.about-us h2 {
+.sign-up-info h2 .about-us h2 {
     font-size: 2em;
     text-align: center;
 }
@@ -212,9 +210,7 @@ a:visited #about-link {
     flex-wrap: wrap;
 }
 
-.sign-up,
-.lead-groups,
-.sign-up-info {
+.sign-up, .lead-groups, .sign-up-info {
     flex: 1;
     padding: 20px;
     background-color: #e5e5dc;
@@ -223,14 +219,11 @@ a:visited #about-link {
     box-shadow: 0 4px 8px #333333;
 }
 
-.sign-up h3,
-.lead-groups h3 {
+.sign-up h3, .lead-groups h3 {
     font-size: 1.5em;
 }
 
-.sign-up p,
-.lead-groups p,
-.sign-up-info {
+.sign-up p, .lead-groups p, .sign-up-info {
     font-size: 1em;
 }
 
@@ -245,12 +238,17 @@ input[type=radio] {
     margin: 8px;
 }
 
-input[type=text],
-input[type=email] {
+input[type=text], input[type=email] {
     margin: 8px;
 }
 
 /* About us-page */
+
+#about-header {
+    color: #92ae80;
+    position: relative;
+    z-index: 98;
+}
 
 .headlines {
     color: #92ae80;
@@ -266,6 +264,19 @@ input[type=email] {
     box-shadow: 0 4px 8px #333333;
 }
 
+#text-about {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    flex-direction: row;
+}
+
+.about-us p {
+    font-size: 1em;
+}
 
 .hamburger-checkbox {
     display: none;
@@ -273,81 +284,68 @@ input[type=email] {
 /* Applying media queries */
 @media (max-width: 768px) {
     .menu {
-      display: none;
-      position: absolute;
-      background-color: #e5e5dc;
-      right: 0;
-      left: 0;
-      text-align: center;
-      padding: 16px 0;
-      color: #333333;
-      font-size: 90%;
-    }
-
-    #navbar {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 0.5rem;
-        letter-spacing: 0;
-    }
-
-    .menu li:hover {
-        display: inline-block;
-        background-color: #333333;
-        transition: 0.3s ease;
-    }
-
-    menu li + li {
-        margin-top: 12px;
-    }
-
-    input[type=checkbox]:checked ~ .menu {
-        display: block;
-    }
-
-    .hamburger {
-        display: inline-flex;
-        font-size: smaller;
-    }
-
-    #logo {
-        font-size: smaller;
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .sign-up,
-    .lead-groups {
-        flex: none;
-        width: 100%;
-    }
-
-   /* main {
-        margin-top: 80px;
-    }*/
-
-    header {
-        height: 10rem;
-    }
-
-    body {
-        padding-top: 10rem;
-    }
-
-    .sign-up h3,
-    .lead-groups h3 {
-        font-size: 1.2em;
-    }
-
-    .sign-up p,
-    .lead-groups p {
-        font-size: 0.9em;
-    }
-
-    input[type=text],
-    input[type=email] {
-    padding: 2px 24px;
-}
+        display: none;
+        position: absolute;
+        background-color: #e5e5dc;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        color: #333333;
+        font-size: 90%;
+      }
+  
+      #navbar {
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 0.5rem;
+          letter-spacing: 0;
+      }
+  
+      .menu li:hover {
+          display: inline-block;
+          background-color: #333333;
+          transition: 0.3s ease;
+      }
+  
+      menu li + li {
+          margin-top: 12px;
+      }
+  
+      input[type=checkbox]:checked ~ .menu {
+          display: block;
+      }
+  
+      .hamburger {
+          display: inline-flex;
+          font-size: smaller;
+      }
+  
+      #logo {
+          font-size: smaller;
+          display: flex;
+          justify-content: flex-start;
+      }
+  
+      .sign-up .lead-groups {
+          flex: none;
+          width: 100%;
+      }
+  
+      main {
+          margin-top: 80px;
+  
+      .sign-up h3 .lead-groups h3 {
+          font-size: 1.2em;
+      }
+  
+      .sign-up p .lead-groups p {
+          font-size: 0.9em;
+      }
+  
+      input[type=text] input[type=email] {
+      padding: 2px 24px;
+      }
 }
