@@ -9,7 +9,6 @@
 }
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -325,8 +324,16 @@ input[type=email] {
         width: 100%;
     }
 
-    main {
-        margin-top: 10vh;
+   /* main {
+        margin-top: 80px;
+    }*/
+
+    header {
+        height: 10rem;
+    }
+
+    body {
+        padding-top: 10rem;
     }
 
     .sign-up h3,
