@@ -11,7 +11,7 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
 * [Features](#features)
 * [Design](#design)
 * [Technologies Used](#technologies-used)
-* [Deployment and Local Development](#deployment)
+* [Deployment](#deployment)
 * [Testing](#testing)
 * [Credits](#credits)
 
@@ -120,7 +120,7 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
 
 - ## Credits
   - ### Code Used
-    ["How To Add Video Background In Website Using HTML And CSS Step By Step Tutorial"](https://www.youtube.com/watch?v=znqUwx0b0HI)
-    ["Mobile First Video Background with HTML & CSS" by DivByDiv](https://www.youtube.com/watch?v=bDwf7dIvGNQ)
-    ["How to Make a Responsive Website with a video background" by Divinector](https://www.youtube.com/watch?v=Mzdkx3Mk9Bk)
-    ["How to Build a Responsive Navigation Bar Using HTML and CSS"](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
+    - Code on how to make a video background in HTML and CSS [How To Add Video Background](https://www.youtube.com/watch?v=znqUwx0b0HI)
+    - Code on how to make a video background in HTML and CSS with a mobile first mindset [Mobile First Video Background](https://www.youtube.com/watch?v=bDwf7dIvGNQ)
+    - Further code on how to make a website with a video background responsive [How to Make a Responsive Website with a video background](https://www.youtube.com/watch?v=Mzdkx3Mk9Bk)
+    - Code on how to make a hamburger menu in HTML and CSS [How to Build a Responsive Navigation Bar](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
