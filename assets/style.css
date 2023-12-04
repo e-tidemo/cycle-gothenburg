@@ -173,12 +173,17 @@ footer > a {
 /* Sign up-page */
 
 #form-header {
+    color: #f39653;
     position: relative;
     z-index: 98;
 }
 
-#other-pages {
+.other-pages {
     font-size: 5vw;
+    color: #f39653;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5s;
 }
 
 #sign-up-instructions {
@@ -271,16 +276,16 @@ input[type=text], input[type=email] {
 /* About us-page */
 
 #about-header {
-    color: #92ae80;
+    color: #f39653;
     position: relative;
     z-index: 98;
 }
 
-.headlines {
+/*.headlines {
     color: #92ae80;
     z-index: 99;
     text-align: center;
-}
+}*/
 
 .about-us {
     flex: 1;
