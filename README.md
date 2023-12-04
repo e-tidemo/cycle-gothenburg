@@ -64,7 +64,7 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     ![Wireframe home page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1.png)
     ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy.png)
     ![Wireframe about us page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe-1copy4.png)
-    ![Wireframe contact page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy2.png)
+    ![Wireframe contact page](documentation/support-images/wireframes/new-wireframe1copy2.png)
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -100,17 +100,22 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
 
     All pages of the website were tested in the HTML validator with the following results:
 
-    index.html:
+    - result for index.html:
+      [html validation index.html](documentation/support-images/validation/homepage-validation.png)
 
-    form.html:
+    - result for form.html:
+      [html validation form.html](documentation/support-images/validation/formhtmlvalidation.png)
 
-    about.html:
+    - result for about.html:
+      [html validation about.html](documentation/support-images/validation/abouthtmlvalidation.png)
 
-    contact.html:
+    - result for contact.html:
+      [html validation contact.html](documentation/support-images/validation/contacthtmlvalidation.png)
 
     [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     The CSS code was tested in the CSS validator with the following result:
+      [css validation](documentation/support-images/validation/cssvalidation.png)
 
     - ### Solved Bugs
     The dropdown navigation bar that appears on smaller devices would be too wide for the screen. This led to the text disappearing on the left and the right sides on some smaller devices.
