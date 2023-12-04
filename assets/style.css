@@ -211,12 +211,6 @@ footer > a {
     text-align: center;
 }
 
-#easy-pic, #intermediate-pic, #advanced-pic {
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-}
-
 #form-boxes-container, #example-maps {
     flex: 1;
 }
@@ -255,12 +249,6 @@ input[type=text], input[type=email] {
     margin: 8px;
 }
 
-#easy-pic, #intermediate-pic, #advanced-pic {
-    height: auto%;
-    width: 100%;
-    max-width: 100%;
-}
-
 .map-box {
     display: flex;
     flex-direction: column;
@@ -281,6 +269,16 @@ input[type=text], input[type=email] {
     overflow: auto;
     flex-wrap: wrap;
     margin-bottom: 1rem;
+}
+
+.map-box {
+    flex: 1;
+}
+
+.map-image img {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 /* About us-page */
@@ -328,7 +326,6 @@ input[type=text], input[type=email] {
     overflow: auto;
     flex-wrap: wrap;
     margin-bottom: 1rem;
-    flex-direction: column;
     margin-top: 8rem;
     text-align: center;
 }
@@ -398,7 +395,18 @@ table {
           flex: none;
           width: 100%;
       }
-  
+
+      #easy-pic, #intermediate-pic, #advanced-pic {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .maps {
+        flex-direction: column;
+        align-items: center;
+      }
+
       main {
           margin-top: 80px;
       }
@@ -413,10 +421,6 @@ table {
   
       input[type=text], input[type=email] {
       padding: 2px 24px;
-      }
-
-      #example-maps {
-        flex-direction: column;
       }
 
       #contact-table {
