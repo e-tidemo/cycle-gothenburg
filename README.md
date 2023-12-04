@@ -1,19 +1,19 @@
 <h1 align="center">Cycle Gothenburg</h1>
 
-Cycle Gothenburg is a website for a fictional business that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
+Cycle Gothenburg is a website for a fictional organisation that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
 
 ![picture of the website on different devices](documentation/support-images/pictureofdevices.png)
 
 [View live website here](https://e-tidemo.github.io/cycle-gothenburg/)
 
 ## Index - Table of Contents
-* ! [User experience (UX)](#User-Experience-(UX) )
-* ! [Features](#Features)
-* ! [Design](#Design)
-* ! [Technologies Used](#Technologies-Used)
-* ![Deployment and Local Development](#Deployment-and-Local-Development)
-* ![Testing](#Testing)
-* ![Credits](#Credits)
+* ![User experience (UX)](#user-experience-ux)
+* ![Features](#features)
+* ![Design](#design)
+* ![Technologies Used](#technologies-used)
+* ![Deployment and Local Development](#deployment)
+* ![Testing](#testing)
+* ![Credits](#credits)
 
 
 
@@ -54,17 +54,17 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 
 - ## Design
   - ### Colour scheme:
-    ![Colour Palette](documentation/support-images/colour-palette-cycling.png)
+    ![Colour Palette](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/Colour-palette-cycling.png)
     A colour palette was created that reflected the video on the home page - reminiscent of the asfalt grey of roads and with a pop of colour which was inspired by the front figure's jacket.
   - ### Typography
  
   - ### Imagery
     The background-video and imagery were chosen to bring a bit of nature and calming colours of nature as this website is based around wellness and outdoor sports. The imagery was used as the foundation of the colour palette. All imagery is sourced from sites that don't infringe Copyright and I have credited these in the [credits](#Credits) section.
   - ### Wireframes
-    ![Wireframe home page](/documentation/support-images/new-wireframe1.png)
-    ![Wireframe sign-up page](/documentation/support-images/new-wireframe1copy.png)
-    ![Wireframe about us page](/documentation/support-images/new-wireframe-1copy4.png)
-    ![Wireframe contact page](/documentation/support-images/new-wireframe1copy2.png)
+    ![Wireframe home page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1.png)
+    ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy.png)
+    ![Wireframe about us page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe-1copy4.png)
+    ![Wireframe contact page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy2.png)
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -89,6 +89,8 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
     [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 
     [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+
+- ## Deployment
 
 - ## Testing
     Testing was done throughout the project, not least with Chrome developer tools which I used to troubleshoot issues that would arise while building the website.
