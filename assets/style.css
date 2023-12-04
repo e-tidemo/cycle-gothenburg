@@ -9,9 +9,9 @@
 }
 
 body {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     /* Generic project styles */
     background-color: #535f65;
     font-family: 'Poppins', 'Lato', sans-serif;
@@ -163,11 +163,11 @@ main {
 }
 
 footer {
+    margin-top: auto;
     background-color: #333333;
     padding: 0.75em;
     text-align: center;
     position: static;
-    margin-top: auto;
 }
 
 footer > span {
@@ -390,7 +390,7 @@ table {
           display: flex;
           justify-content: flex-start;
       }
-  
+
       .sign-up .lead-groups {
           flex: none;
           width: 100%;
