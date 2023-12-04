@@ -350,13 +350,12 @@ table {
     .menu {
         display: none;
         position: absolute;
-        background-color: #e5e5dc;
+        background-color: transparent;
         right: 0;
         left: 0;
         text-align: center;
-        padding: 16px 0;
-        color: #333333;
         font-size: 90%;
+        margin-top: 0;
       }
   
       #navbar {

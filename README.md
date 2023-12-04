@@ -1,19 +1,19 @@
 <h1 align="center">Cycle Gothenburg</h1>
 
-(view live website here)
-
 Cycle Gothenburg is a website for a fictional business that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
 
-<!--- PICTURE --->
+![picture of the website on different devices](documentation/support-images/pictureofdevices.png)
+
+[View live website here](https://e-tidemo.github.io/cycle-gothenburg/)
 
 ## Index - Table of Contents
-* [User experience (UX)](#User-Experience-(UX) )
-* [Features](#Features)
-* [Design](#Design)
-* [Technologies Used](#Technologies-Used)
-* [Deployment and Local Development](#Deployment-and-Local-Development)
-* [Testing](#Testing)
-* [Credits](#Credits)
+* ! [User experience (UX)](#User-Experience-(UX) )
+* ! [Features](#Features)
+* ! [Design](#Design)
+* ! [Technologies Used](#Technologies-Used)
+* ![Deployment and Local Development](#Deployment-and-Local-Development)
+* ![Testing](#Testing)
+* ![Credits](#Credits)
 
 
 
@@ -54,17 +54,17 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
 
 - ## Design
   - ### Colour scheme:
-    ![Colour Palette] (/support-images/Color palette cycling.png)
+    ![Colour Palette](documentation/support-images/colour-palette-cycling.png)
     A colour palette was created that reflected the video on the home page - reminiscent of the asfalt grey of roads and with a pop of colour which was inspired by the front figure's jacket.
   - ### Typography
  
   - ### Imagery
     The background-video and imagery were chosen to bring a bit of nature and calming colours of nature as this website is based around wellness and outdoor sports. The imagery was used as the foundation of the colour palette. All imagery is sourced from sites that don't infringe Copyright and I have credited these in the [credits](#Credits) section.
   - ### Wireframes
-    (/documentation/support-images/New Wireframe 1.png)
-    (/documentation/support-images/New Wireframe 1 copy.png)
-    (/documentation/support-images/New Wireframe 1 copy 2.png)
-    (/documentation/support-images/New Wireframe 1 copy 4.png)
+    ![Wireframe home page](/documentation/support-images/new-wireframe1.png)
+    ![Wireframe sign-up page](/documentation/support-images/new-wireframe1copy.png)
+    ![Wireframe about us page](/documentation/support-images/new-wireframe-1copy4.png)
+    ![Wireframe contact page](/documentation/support-images/new-wireframe1copy2.png)
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -91,13 +91,30 @@ Cycle Gothenburg is a website for a fictional business that aims to build a comm
     [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 
 - ## Testing
+    Testing was done throughout the project, not least with Chrome developer tools which I used to troubleshoot issues that would arise while building the website.
+
     - ### Validator Testing
     [HTML Validator](https://validator.w3.org/)
 
+    All pages of the website were tested in the HTML validator with the following results:
+
+    index.html:
+
+    form.html:
+
+    about.html:
+
+    contact.html:
+
     [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+    The CSS code was tested in the CSS validator with the following result:
 
     - ### Solved Bugs
     The dropdown navigation bar that appears on smaller devices would be too wide for the screen. This led to the text disappearing on the left and the right sides on some smaller devices.
+
+    - ### Known Bugs
+    There was one bug I didn't manage to fix and it is that the contact information appears to the left on a bigger screen even though I would have liked to have it centered.
 
 - ## Credits
   - ### Code Used
