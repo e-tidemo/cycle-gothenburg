@@ -290,7 +290,7 @@ input[type=text], input[type=email] {
     flex-wrap: wrap;
     margin-bottom: 1rem;
     flex-direction: column;
-    width: 40rem;
+    margin-top: 8rem;
 }
 
 .contact-us {
@@ -309,9 +309,12 @@ table {
     margin-bottom: 1em;
 }
 
-.contact-box {
-    flex: 0 250px;
-    height: 250px;
+.emailaddress {
+    text-align: left;
+}
+
+.phonenumber {
+    text-align: right;
 }
 
 .hamburger-checkbox {
@@ -383,5 +386,13 @@ table {
   
       input[type=text] input[type=email] {
       padding: 2px 24px;
+      }
+
+      #contact-table {
+        width: auto;
+      }
+
+      .contact-us {
+        width: 100%;
       }
 }
