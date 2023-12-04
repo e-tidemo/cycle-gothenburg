@@ -2,7 +2,7 @@
 
 Cycle Gothenburg is a website for a fictional organisation that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
 
-![picture of the website on different devices]()
+![picture of the website on different devices](documentation/support-images/mulltiscreen-picture.png)
 
 [View live website here](https://e-tidemo.github.io/cycle-gothenburg/)
 
