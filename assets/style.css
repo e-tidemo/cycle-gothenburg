@@ -32,6 +32,23 @@ video {
     }
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
 .homepage {
     text-align: center;
 }
@@ -189,7 +206,7 @@ footer > a {
     margin-bottom: 1rem;
 }
 
-.sign-up-info h2 .about-us h2 {
+.sign-up-info h2, .about-us h2 {
     font-size: 2em;
     text-align: center;
 }
@@ -204,13 +221,15 @@ a:link, a:visited {
     flex: 1;
 }
 
-.sign-up, .lead-groups, .sign-up-info, .maps, .contact-us {
+.sign-up, .lead-groups, .sign-up-info, .contact-us {
     flex: 1;
     padding: 20px;
     background-color: #e5e5dc;
     color: #333333;
     border-radius: 8px;
     box-shadow: 0 4px 8px #333333;
+    max-width: 40rem;
+    text-align: center;
 }
 
 .sign-up h3, .lead-groups h3, .maps h3 {
@@ -236,29 +255,37 @@ input[type=text], input[type=email] {
     margin: 8px;
 }
 
-/*#example-maps {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    overflow: auto;
-    flex-wrap: wrap;
-    margin-bottom: 1rem;
-}*/
+#easy-pic, #intermediate-pic, #advanced-pic {
+    height: 40rem;
+    width: auto;
+    max-width: 100%;
+}
 
-/*.map-box {
-    flex: 1;
+.map-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
     background-color: #e5e5dc;
     border-radius: 8px;
     box-shadow: 0 4px 8px #333333;
     text-align: center;
     margin: 8px;
-}*/
+}
 
-#easy-pic, #intermediate-pic, #advanced-pic {
-    height: 40rem;
-    width: auto;
+.map-image img {
     max-width: 100%;
+    height: auto;
+}
+
+.maps {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 /* About us-page */
@@ -276,6 +303,7 @@ input[type=text], input[type=email] {
     border-radius: 8px;
     box-shadow: 0 4px 8px #333333;
     text-align: center;
+    max-width: 40rem;
 }
 
 #text-about {
@@ -304,15 +332,6 @@ input[type=text], input[type=email] {
     flex-direction: column;
     margin-top: 8rem;
 }
-
-/*.contact-us {
-    flex: 1;
-    padding: 20px;
-    background-color: #e5e5dc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px #333333;
-    text-align: center;
-}*/
 
 table {
     display: flex;

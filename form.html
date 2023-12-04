@@ -22,7 +22,7 @@
         <nav>
             <!-- Using the checkbox hack-->
             <input type="checkbox" id="checkbox_toggle" class="hamburger-checkbox">
-            <label for="checkbox_toggle" class="hamburger">&#9776</label>
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <!-- Navigation Menus -->
                 <div class="menu">
                     <ul id="navbar">
@@ -51,7 +51,7 @@
             <div class="sign-up-info">
                 <h2>Sign up for group rides around Gothenburg</h2>
                 <p>Here you can sign up to receive an email once a week when we set a new time and route for the weekly group ride. 
-                    You can choose which difficulty levels you would like to join.
+                    You can choose which difficulty levels you would like to join. You can see examples of the routes below. Please note that the times shown are half of the route.
                     Once you sign up, you will receive a weekly email with information on when and where the next rides in the categories you choose are.
                     Read more about <a href="about.html">Cycle Gothenburg</a>.
                 </p>
@@ -65,10 +65,10 @@
     <!-- Create a form for signing up for rides-->
                 <form method="post" action="https://formdump.codeinstitute.net">
                     <label for="name-field">Full name</label>
-                    <input type="text" name="name-field" aria-label="fill in name"><br>
+                    <input type="text" id="name-field" aria-label="fill in name"><br>
 
                     <label for="email-field">Email</label>
-                    <input type="email" name="email-field" aria-label="fill in email"><br>
+                    <input type="email" id="email-field" aria-label="fill in email"><br>
 
                     <p>Choose what difficulty levels you are interested in joining:</p><br>
                     <label for="easy">Easy</label>
@@ -78,7 +78,7 @@
                     <input type="checkbox" name="intermediate" id="intermediate" class="check">
 
                     <label for="advanced">Advanced</label>
-                    <input type="checkbox" name="advanced" id="intermediate" class="check"><br>
+                    <input type="checkbox" name="advanced" id="advanced" class="check"><br>
 
                     <input type="submit">
                 </form>
@@ -89,10 +89,10 @@
                 <p>Please let us know by registering you interest below.</p>
                 <form action="https://formdump.codeinstitute.net" method="post">
                     <label for="name">Full name</label>
-                    <input type="text" name="name" aria-label="fill in name"><br>
+                    <input type="text" id="name" aria-label="fill in name"><br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" aria-label="fill in email"><br>
-                    <label for="experience">What experience level are you on?</label><br>
+                    <input type="email" id="email" aria-label="fill in email"><br>
+                    <p>What experience level are you on?</p><br>
                     <label for="beginner">Beginner</label>
                     <input type="radio" id="beginner" name="experience" value="beginner"><br>
                     <label for="intermediate-level">Intermediate level</label>
@@ -108,17 +108,28 @@
         </section>
         <section id="example-maps">
             <div class="maps">
-                <h3>Some examples of routes we plan</h3>
+                
+                <!-- Container for the first map -->
                 <div class="map-box">
-                    <img src="assets/images/exampleride-easy.webp" alt="a map with a distance marked out between Hovås and Linnéplatsen in Gothenburg" id="easy-pic">
+                    <div class="map-image">
+                        <img src="assets/images/exampleride-easy.webp" alt="a map with a distance marked out between Hovås and Linnéplatsen in Gothenburg" id="easy-pic">
+                    </div>
                     <p>Easy level</p>
                 </div>
+        
+                <!-- Container for the second map -->
                 <div class="map-box">
-                    <img src="assets/images/exampleride-intermediate.webp" alt="a map with a distance marked out between Högsbohöjd and Särö" id="intermediate-pic">
+                    <div class="map-image">
+                        <img src="assets/images/exampleride-intermediate.webp" alt="a map with a distance marked out between Högsbohöjd and Särö" id="intermediate-pic">
+                    </div>
                     <p>Intermediate level</p>
                 </div>
+        
+                <!-- Container for the third map -->
                 <div class="map-box">
-                    <img src="assets/images/exampleride-hard.webp" alt="a map with a distance marked out between Liseberg and Lilla Edet" id="advanced-pic">
+                    <div class="map-image">
+                        <img src="assets/images/exampleride-hard.webp" alt="a map with a distance marked out between Liseberg and Lilla Edet" id="advanced-pic">
+                    </div>
                     <p>Advanced level</p>
                 </div>
             </div>
