@@ -121,7 +121,7 @@ ul li {
     color: #f39653;
     font-weight: 600;
     text-align: center;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
 section h1:hover{
@@ -339,7 +339,7 @@ table {
 }
 
 .phonenumber {
-    text-align: right;
+    text-align: left;
 }
 
 .hamburger-checkbox {
@@ -366,6 +366,7 @@ table {
           justify-content: center;
           gap: 0.5rem;
           letter-spacing: 0;
+          z-index: 100;
           margin-top: 4rem;
       }
   
