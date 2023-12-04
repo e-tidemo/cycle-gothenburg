@@ -220,11 +220,11 @@ a:visited #about-link {
     box-shadow: 0 4px 8px #333333;
 }
 
-.sign-up h3, .lead-groups h3 {
+.sign-up h3, .lead-groups h3, .maps h3 {
     font-size: 1.5em;
 }
 
-.sign-up p, .lead-groups p, .sign-up-info {
+.sign-up p, .lead-groups p, .sign-up-info, .maps {
     font-size: 1em;
 }
 
@@ -241,6 +241,31 @@ input[type=radio] {
 
 input[type=text], input[type=email] {
     margin: 8px;
+}
+
+#example-maps {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.map-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #e5e5dc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px #333333;
+    text-align: center;
+    margin: 8px;
+}
+
+#easy-pic, #intermediate-pic, #advanced-pic {
+    height: 40rem;
+    width: auto;
+    max-width: 100%;
 }
 
 /* About us-page */
@@ -341,6 +366,7 @@ table {
           justify-content: center;
           gap: 0.5rem;
           letter-spacing: 0;
+          margin-top: 4rem;
       }
   
       .menu li:hover {
@@ -376,16 +402,20 @@ table {
       main {
           margin-top: 80px;
   
-      .sign-up h3 .lead-groups h3 {
+      .sign-up h3, .lead-groups h3 {
           font-size: 1.2em;
       }
   
-      .sign-up p .lead-groups p {
+      .sign-up p, .lead-groups p {
           font-size: 0.9em;
       }
   
-      input[type=text] input[type=email] {
+      input[type=text], input[type=email] {
       padding: 2px 24px;
+      }
+
+      #example-maps {
+        flex-direction: column;
       }
 
       #contact-table {
