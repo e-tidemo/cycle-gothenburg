@@ -11,6 +11,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     /* Generic project styles */
     background-color: #535f65;
     font-family: 'Poppins', 'Lato', sans-serif;
@@ -19,9 +20,11 @@ body {
 /* Homescreen */
 
 video {
+    position: fixed;
     width: 100%;
     height: 95vh;
     object-fit: cover;
+    z-index: -1;
 }
 
 @media screen {
@@ -153,7 +156,7 @@ footer {
     padding: 0.75em;
     text-align: center;
     position: static;
-    margin-top: 1rem;
+    margin-top: auto;
 }
 
 footer > span {
@@ -170,7 +173,6 @@ footer > a {
 /* Sign up-page */
 
 #form-header {
-    color: #f39653;
     position: relative;
     z-index: 98;
 }
@@ -288,6 +290,7 @@ input[type=text], input[type=email] {
     flex-wrap: wrap;
     margin-bottom: 1rem;
     flex-direction: column;
+    width: 40rem;
 }
 
 .contact-us {
@@ -301,9 +304,14 @@ input[type=text], input[type=email] {
 
 table {
     display: flex;
-    height: 270px;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 1em;
+}
+
+.contact-box {
+    flex: 0 250px;
+    height: 250px;
 }
 
 .hamburger-checkbox {
