@@ -350,12 +350,12 @@ table {
     .menu {
         display: none;
         position: absolute;
-        background-color: transparent;
+        background-color: #e5e5dc;
         right: 0;
         left: 0;
+        padding: 16px 0;
         text-align: center;
         font-size: 90%;
-        margin-top: 0;
       }
   
       #navbar {
@@ -366,7 +366,7 @@ table {
           gap: 0.5rem;
           letter-spacing: 0;
           z-index: 100;
-          margin-top: 4rem;
+          margin-top: 1rem;
       }
   
       .menu li:hover {
