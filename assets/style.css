@@ -211,10 +211,10 @@ footer > a {
     text-align: center;
 }
 
-a:link, a:visited {
-    #about-link {
-        color: #333333;
-    }
+#easy-pic, #intermediate-pic, #advanced-pic {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
 }
 
 #form-boxes-container, #example-maps {
@@ -229,11 +229,11 @@ a:link, a:visited {
     border-radius: 8px;
     box-shadow: 0 4px 8px #333333;
     max-width: 40rem;
-    text-align: center;
 }
 
 .sign-up h3, .lead-groups h3, .maps h3 {
     font-size: 1.5em;
+    text-align: center;
 }
 
 .sign-up p, .lead-groups p, .sign-up-info, .maps, .contact-us p {
@@ -256,8 +256,8 @@ input[type=text], input[type=email] {
 }
 
 #easy-pic, #intermediate-pic, #advanced-pic {
-    height: 40rem;
-    width: auto;
+    height: auto%;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -272,11 +272,6 @@ input[type=text], input[type=email] {
     box-shadow: 0 4px 8px #333333;
     text-align: center;
     margin: 8px;
-}
-
-.map-image img {
-    max-width: 100%;
-    height: auto;
 }
 
 .maps {
@@ -320,6 +315,10 @@ input[type=text], input[type=email] {
     font-size: 1em;
 }
 
+#about-link a:link, a:visited {
+    color: #f39653;
+}
+
 /* Contact page */
 
 #contact-table {
@@ -331,6 +330,7 @@ input[type=text], input[type=email] {
     margin-bottom: 1rem;
     flex-direction: column;
     margin-top: 8rem;
+    text-align: center;
 }
 
 table {
@@ -402,6 +402,7 @@ table {
   
       main {
           margin-top: 80px;
+      }
   
       .sign-up h3, .lead-groups h3 {
           font-size: 1.2em;
