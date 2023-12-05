@@ -2,7 +2,7 @@
 
 Cycle Gothenburg is a website for a fictional organisation that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
 
-![picture of the website on different devices](documentation/support-images/multideviceimage.png)
+![picture of the website on different devices](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/multideviceimage.png)
 
 [View live website here](https://e-tidemo.github.io/cycle-gothenburg/)
 
@@ -41,19 +41,19 @@ An overall goal was to make the website work on a range of different devices.
       - The navigation bar is set at the top right of the website on all pages which supports easy navigation. On smaller devices, such as mobile phones, this moves to a hamburger menu toggle bar.
       - The navigation bar is also marked for each page, for example, on the home page the navigation bar shows that you are currently on the "Home" page with a line underneath.
       - The logo on the top left corner of the website is also clickable and it leads you to the home page.
-      ![Home page screenshot](documentation/support-images/homepage-screenshot.png)
+      ![Home page screenshot](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/homepage-screenshot.png)
     - **Additional links to sign up**
       - On the Home page, the link to sign up is very prominent in the middle of the page. This link is also the main explanation of what the organisation does as it says "Join our cycling groups" and there is no other explanatory text on the home page.
       - On the page "About us" there is also a link embedded in the text that leads to the sign up page. The purpose of adding the additional links is to encourage the website visitor to sign up with easy access to the page for signing up.
-      ![About us page screenshot](documentation/support-images/about-us-page.png)
+      ![About us page screenshot](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/about-us-page.png)
     - **Sign up page**
       - The page to sign up contains a form where the person who would like to sign up fills out their basic information, their skill level in cycling and what level ride they would like to join.
       - There is also an informative text about how the sign up works.
       - The sign up page also shows three images with maps where examples routes are marked out, one for each difficulty level.
-      ![Sign up page screenshot](documentation/support-images/sign-up-page.png)
+      ![Sign up page screenshot](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/sign-up-page.png)
     - **Contact page**
       - The contact page includes a form for questions or feedback, a form to let the organisation know if you want to lead group rides, a map with the starting point of all rides and information such as email address and phone number to the organisation.
-      ![Contact page screenshot](documentation/support-images/contact-page.png)
+      ![Contact page screenshot](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/contact-page.png)
     - **Footer**
       - The footer is the same on each page, which makes it easy to use, and features the organisation's social media accounts.
 
@@ -68,11 +68,11 @@ An overall goal was to make the website work on a range of different devices.
   - ### Imagery
     The background-video and imagery were chosen to bring a bit of nature and calming colours of nature as this website is based around wellness and outdoor sports. The imagery was used as the foundation of the colour palette. All imagery is sourced from sites that don't infringe Copyright and I have credited these in the [credits](#Credits) section.
   - ### Wireframes
-    ![Wireframe home page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1.png)
-    ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy.png)
-    ![Wireframe about us page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe-1copy4.png)
+    ![Wireframe home page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/new-wireframe1.png)
+    ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/new-wireframe1copy.png)
+    ![Wireframe about us page](https://github.com/e-tidemo/cycle-gothenburg/blob/master/documentation/support-images/wireframes/new-wireframe-1copy4.png)
     ![Wireframe contact page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/new-wireframe1copy2.png)
-    ![Wireframe smaller devices](documentation/support-images/wireframes/smallerdeviceswrireframe.png)
+    ![Wireframe smaller devices](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/smallerdeviceswrireframe.png)
 
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
@@ -152,4 +152,4 @@ An overall goal was to make the website work on a range of different devices.
     - Code on how to make a hamburger menu in HTML and CSS [How to Build a Responsive Navigation Bar](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
 
   - ### Acknowledgments 
-  I would like to thank my mentor, Specer Barriball, for his help in guiding me through this process and for providing me with very good resources to help me along in creating this project.
+  I would like to thank my mentor, Spencer Barriball, for his help in guiding me through this process and for providing me with very good resources to help me along in creating this project.
