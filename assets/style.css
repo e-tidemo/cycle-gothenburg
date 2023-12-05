@@ -168,6 +168,7 @@ footer {
     padding: 0.75em;
     text-align: center;
     position: static;
+    font-family: 'Lato', sans-serif;
 }
 
 footer > span {

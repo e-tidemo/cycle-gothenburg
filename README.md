@@ -18,10 +18,12 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
 
 
 - ## User Experience (UX)
+An overall goal was to make the website work on a range of different devices.
+
   - ### 1. Goals for a First Time Visitor
     - a. For a first time visitor, it is important to get a grasp of what the website is about - easily and quickly.
     - b. For a first time visitor, it is important to be able to navigate the website easily.
-    - c. For a first time visitor, it is important to easily find more information about the business.
+    - c. For a first time visitor, it is important to easily find more information about the organisation.
     - d. For first time visitors, it is important to be able to contact the organisation with any questions about the concept.
     - e. For first time visitors, it is important that the sign up is easy to understand and to do.
   
@@ -38,26 +40,30 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     - **Navigation bar**
       - The navigation bar is set at the top right of the website on all pages which supports easy navigation. On smaller devices, such as mobile phones, this moves to a hamburger menu toggle bar.
       - The navigation bar is also marked for each page, for example, on the home page the navigation bar shows that you are currently on the "Home" page with a line underneath.
+      ![Home page screenshot](documentation/support-images/homepage-screenshot.png)
     - **Additional links to sign up**
-      - On the Home page, the link to sign up is very prominent in the middle of the page. This link is also the main explanation of what the organisation does as it says "Join our cycling groups".
+      - On the Home page, the link to sign up is very prominent in the middle of the page. This link is also the main explanation of what the organisation does as it says "Join our cycling groups" and there is no other explanatory text on the home page.
       - On the page "About us" there is also a link embedded in the text that leads to the sign up page. The purpose of adding the additional links is to encourage the website visitor to sign up with easy access to the page for signing up.
+      ![About us page screenshot](documentation/support-images/about-us-page.png)
     - **Sign up page**
       - The page to sign up contains a form where the person who would like to sign up fills out their basic information, their skill level in cycling and what level ride they would like to join.
-      - The form also includes a checkbox at the end where the user can choose to sign up to get an email regularly for the chosen kind of group ride. If the user just wants to join one ride they can simply not check the box.
-      - The sign up page also has a map to where the group rides always start.
+      - There is also an informative text about how the sign up works.
+      - The sign up page also shows three images with maps where examples routes are marked out, one for each difficulty level.
+      ![Sign up page screenshot](documentation/support-images/sign-up-page.png)
     - **Contact page**
       - The contact page includes a form for questions or feedback, a form to let the organisation know if you want to lead group rides, a map with the starting point of all rides and information such as email address and phone number to the organisation.
+      ![Contact page screenshot](documentation/support-images/contact-page.png)
     - **Footer**
       - The footer is the same on each page, which makes it easy to use, and features the organisation's social media accounts.
-    - ### Future Features
-     - 
 
 - ## Design
   - ### Colour scheme:
     ![Colour Palette](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/Colour-palette-cycling.png)
     A colour palette was created that reflected the video on the home page - reminiscent of the asfalt grey of roads and with a pop of colour which was inspired by the front figure's jacket.
   - ### Typography
- 
+    Google Fonts was used for the following fonts:
+    - Poppins is used for the headings and the paragraphs on the sites.
+    - Lato is used for the footer.
   - ### Imagery
     The background-video and imagery were chosen to bring a bit of nature and calming colours of nature as this website is based around wellness and outdoor sports. The imagery was used as the foundation of the colour palette. All imagery is sourced from sites that don't infringe Copyright and I have credited these in the [credits](#Credits) section.
   - ### Wireframes
@@ -65,6 +71,8 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy.png)
     ![Wireframe about us page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe-1copy4.png)
     ![Wireframe contact page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/new-wireframe1copy2.png)
+    ![Wireframe smaller devices](documentation/support-images/wireframes/smallerdeviceswrireframe.png)
+
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -91,6 +99,17 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 
 - ## Deployment
+    The website was deployed using the following instructions:
+    
+    1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+    2. From the source section drop-down menu, select the Master Branch
+
+    3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+
+    4. Any changes pushed to the master branch will take effect on the live project
+
+    The live website can be found here: [Cycle Gothenburg](https://e-tidemo.github.io/cycle-gothenburg/)
 
 - ## Testing
     Testing was done throughout the project, not least with Chrome developer tools which I used to troubleshoot issues that would arise while building the website.
