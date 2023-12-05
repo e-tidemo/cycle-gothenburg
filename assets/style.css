@@ -20,7 +20,7 @@ body {
 /* Homescreen */
 
 video {
-    width: 100%;
+    width: 100vw;
     height: 95vh;
     object-fit: cover;
     z-index: -1;

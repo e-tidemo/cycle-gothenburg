@@ -100,7 +100,7 @@ An overall goal was to make the website work on a range of different devices.
     [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
 
 - ## Deployment
-    The website was deployed using the following instructions:
+    The website was deployed using github and the following instructions:
     
     1. In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
 
@@ -109,6 +109,8 @@ An overall goal was to make the website work on a range of different devices.
     3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 
     4. Any changes pushed to the master branch will take effect on the live project
+
+    I have continuously used git as my local repository and github as my online repository. To do this, I have created a git repository and then, with any changes I have sent git commits to my local repository and then, by using git push, sent it to my github repository.
 
     The live website can be found here: [Cycle Gothenburg](https://e-tidemo.github.io/cycle-gothenburg/)
 
@@ -138,6 +140,9 @@ An overall goal was to make the website work on a range of different devices.
 
     The CSS code was tested in the CSS validator with the following result:
       [css validation](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/cssvalidation.png)
+
+    - ### Lighthouse Testing
+    
 
     - ### Known Bugs
     There was one bug I didn't manage to fix and it is that the dropdown menu on smaller devices covers the Cycle Gothenburg headline. I would have like to have it appear below the headline but I was unable to find a solution to this issue.
