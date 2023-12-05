@@ -146,16 +146,16 @@ An overall goal was to make the website work on a range of different devices.
     The result for the Lighthouse testing was overall positive, except from the sign up-page because I didn't manage to format the images quite well enough.
 
     - Home page:
-    ![Home page lighthouse testing](documentation/support-images/lighthouse/lighthousehome.png)
+    ![Home page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthousehome.png)
 
     - Sign up page:
-    ![Sign up page lighthouse testing](documentation/support-images/lighthouse/lighthouseform.png)
+    ![Sign up page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseform.png)
 
     - About us page:
-    ![About us page lighthouse testing](documentation/support-images/lighthouse/lighthouseabout.png)
+    ![About us page lighthouse testing](dhttps://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
 
     - Contact us page:
-    ![Contact us page lighthouse testing](documentation/support-images/lighthouse/lighthousecontact.png)
+    ![Contact us page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthousecontact.png)
 
     - ### Known Bugs
     There was one bug I didn't manage to fix and it is that the dropdown menu on smaller devices covers the Cycle Gothenburg headline. I would have like to have it appear below the headline but I was unable to find a solution to this issue.
