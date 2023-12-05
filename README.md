@@ -2,7 +2,7 @@
 
 Cycle Gothenburg is a website for a fictional organisation that aims to build a community for long-distance cyclists in and around Gothenburg and to encourage more to take up cycling. The target audience for the website is people who are just starting out with long-distance cycling, those who are interested in getting started and for those who have more experience but are looking for a group of people to ride with. Through the website one can simply sign up to group rides and get a time, a place and a route for the ride.
 
-![picture of the website on different devices](documentation/support-images/mulltiscreen-picture.png)
+![picture of the website on different devices](documentation/support-images/multideviceimage.png)
 
 [View live website here](https://e-tidemo.github.io/cycle-gothenburg/)
 
@@ -40,6 +40,7 @@ An overall goal was to make the website work on a range of different devices.
     - **Navigation bar**
       - The navigation bar is set at the top right of the website on all pages which supports easy navigation. On smaller devices, such as mobile phones, this moves to a hamburger menu toggle bar.
       - The navigation bar is also marked for each page, for example, on the home page the navigation bar shows that you are currently on the "Home" page with a line underneath.
+      - The logo on the top left corner of the website is also clickable and it leads you to the home page.
       ![Home page screenshot](documentation/support-images/homepage-screenshot.png)
     - **Additional links to sign up**
       - On the Home page, the link to sign up is very prominent in the middle of the page. This link is also the main explanation of what the organisation does as it says "Join our cycling groups" and there is no other explanatory text on the home page.
@@ -112,7 +113,9 @@ An overall goal was to make the website work on a range of different devices.
     The live website can be found here: [Cycle Gothenburg](https://e-tidemo.github.io/cycle-gothenburg/)
 
 - ## Testing
-    Testing was done throughout the project, not least with Chrome developer tools which I used to troubleshoot issues that would arise while building the website.
+    Testing was done throughout the project, not least with Chrome developer tools which I used to troubleshoot issues that would arise while building the website and to test the responsiveness of the website on different devices.
+
+    I also tested the website in Google Chrome, Safari and Mozilla Firefox.
 
     - ### Validator Testing
     [HTML Validator](https://validator.w3.org/)
@@ -136,15 +139,17 @@ An overall goal was to make the website work on a range of different devices.
     The CSS code was tested in the CSS validator with the following result:
       [css validation](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/cssvalidation.png)
 
-    - ### Solved Bugs
-    The dropdown navigation bar that appears on smaller devices would be too wide for the screen. This led to the text disappearing on the left and the right sides on some smaller devices.
-
     - ### Known Bugs
-    There was one bug I didn't manage to fix and it is that the contact information appears to the left on a bigger screen even though I would have liked to have it centered.
+    There was one bug I didn't manage to fix and it is that the dropdown menu on smaller devices covers the Cycle Gothenburg headline. I would have like to have it appear below the headline but I was unable to find a solution to this issue.
 
 - ## Credits
   - ### Code Used
+  I used a combination of code from three different sources to create a video background that was responsive for different screen sizes:
     - Code on how to make a video background in HTML and CSS [How To Add Video Background](https://www.youtube.com/watch?v=znqUwx0b0HI)
     - Code on how to make a video background in HTML and CSS with a mobile first mindset [Mobile First Video Background](https://www.youtube.com/watch?v=bDwf7dIvGNQ)
     - Further code on how to make a website with a video background responsive [How to Make a Responsive Website with a video background](https://www.youtube.com/watch?v=Mzdkx3Mk9Bk)
+  I also used the following code to build a hamburger menu that appears on smaller screens/devices:
     - Code on how to make a hamburger menu in HTML and CSS [How to Build a Responsive Navigation Bar](https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/)
+
+  - ### Acknowledgments 
+  I would like to thank my mentor, Specer Barriball, for his help in guiding me through this process and for providing me with very good resources to help me along in creating this project.
