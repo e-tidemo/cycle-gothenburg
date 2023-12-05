@@ -125,16 +125,16 @@ An overall goal was to make the website work on a range of different devices.
     All pages of the website were tested in the HTML validator with the following results:
 
     - result for index.html:
-      [html validation index.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/homepage-validation.png)
+      ![html validation index.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/homepage-validation.png)
 
     - result for form.html:
-      [html validation form.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/formhtmlvalidation.png)
+      ![html validation form.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/formhtmlvalidation.png)
 
     - result for about.html:
-      [html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
+      ![html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
 
     - result for contact.html:
-      [html validation contact.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/contacthtmlvalidation.png)
+      ![html validation contact.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/contacthtmlvalidation.png)
 
     [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
