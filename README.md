@@ -131,7 +131,7 @@ An overall goal was to make the website work on a range of different devices.
       [html validation form.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/formhtmlvalidation.png)
 
     - result for about.html:
-      [html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/abouthtmlvalidation.png)
+      [html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
 
     - result for contact.html:
       [html validation contact.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/contacthtmlvalidation.png)
