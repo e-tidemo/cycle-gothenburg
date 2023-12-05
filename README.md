@@ -131,7 +131,7 @@ An overall goal was to make the website work on a range of different devices.
       ![html validation form.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/formhtmlvalidation.png)
 
     - result for about.html:
-      ![html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
+      ![html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/abouthtmlvalidation.png)
 
     - result for contact.html:
       ![html validation contact.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/contacthtmlvalidation.png)
@@ -152,7 +152,7 @@ An overall goal was to make the website work on a range of different devices.
     ![Sign up page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseform.png)
 
     - About us page:
-    ![About us page lighthouse testing](dhttps://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
+    ![About us page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthouseabout.png)
 
     - Contact us page:
     ![Contact us page lighthouse testing](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/lighthouse/lighthousecontact.png)
