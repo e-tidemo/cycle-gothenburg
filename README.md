@@ -48,7 +48,7 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     - **Contact page**
       - The contact page includes a form for questions or feedback, a form to let the organisation know if you want to lead group rides, a map with the starting point of all rides and information such as email address and phone number to the organisation.
     - **Footer**
-      - The footer is the same on each page, which makes it easy to use, and features the organisation's social media accounts as well as an adress of where the group rides always start.
+      - The footer is the same on each page, which makes it easy to use, and features the organisation's social media accounts.
     - ### Future Features
      - 
 
@@ -64,7 +64,7 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     ![Wireframe home page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1.png)
     ![Wireframe sign-up page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe1copy.png)
     ![Wireframe about us page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/New-Wireframe-1copy4.png)
-    ![Wireframe contact page](documentation/support-images/wireframes/new-wireframe1copy2.png)
+    ![Wireframe contact page](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/wireframes/new-wireframe1copy2.png)
   - ### Accessibility
   For a user experience that works for everyone, I have done the following to make sure that the website is as accesible as possible:
    - Used semantic HTML
@@ -101,21 +101,21 @@ Cycle Gothenburg is a website for a fictional organisation that aims to build a 
     All pages of the website were tested in the HTML validator with the following results:
 
     - result for index.html:
-      [html validation index.html](documentation/support-images/validation/homepage-validation.png)
+      [html validation index.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/homepage-validation.png)
 
     - result for form.html:
-      [html validation form.html](documentation/support-images/validation/formhtmlvalidation.png)
+      [html validation form.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/formhtmlvalidation.png)
 
     - result for about.html:
-      [html validation about.html](documentation/support-images/validation/abouthtmlvalidation.png)
+      [html validation about.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/abouthtmlvalidation.png)
 
     - result for contact.html:
-      [html validation contact.html](documentation/support-images/validation/contacthtmlvalidation.png)
+      [html validation contact.html](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/contacthtmlvalidation.png)
 
     [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
     The CSS code was tested in the CSS validator with the following result:
-      [css validation](documentation/support-images/validation/cssvalidation.png)
+      [css validation](https://raw.githubusercontent.com/e-tidemo/cycle-gothenburg/master/documentation/support-images/validation/cssvalidation.png)
 
     - ### Solved Bugs
     The dropdown navigation bar that appears on smaller devices would be too wide for the screen. This led to the text disappearing on the left and the right sides on some smaller devices.
